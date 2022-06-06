@@ -32,7 +32,7 @@ toml = "*"
 poetry = "*"
 poetry2setup = "*"
 
-pytest = "^5.2"
+pytest = "^7.1"
 pytest-cov = "*"
 mock = "*"
 semver = "*"
