@@ -28,14 +28,14 @@ prompt-toolkit = { version = "^3.0" }
 blessings = { version = "^1.7" }
 
 [tool.poetry.dev-dependencies]
-toml = "*"
-poetry = "*"
+toml = "^0.10"
+poetry = "^1.1.9"
 poetry2setup = "*"
 
-pytest = "^5.2"
-pytest-cov = "*"
-mock = "*"
-semver = "*"
+pytest = "^7.1"
+pytest-cov = "^3.0"
+mock = "^4.0"
+semver = "^2.13"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
