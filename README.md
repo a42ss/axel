@@ -7,6 +7,8 @@ Axel (aCLI) is an interactive and configurable command line interface (CLI). The
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/a42ss/axel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/a42ss/axel/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/a42ss/axel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/a42ss/axel/context:python)
 
+[![Build](https://github.com/a42ss/axel/actions/workflows/python-package.yml/badge.svg)](https://github.com/a42ss/axel/actions/workflows/python-package.yml)
+
 Poetry commands
 ---------------
 
