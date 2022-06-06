@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "axel"
+version = "0.1.0"
+description = "Axel (aCLI) is a interactive and configurable command line interface (CLI). The main reason of using aCLI is to keep all the tools for your project in the same place easy to document and update."
+license = "MIT"
+authors = [
+    "George Babarus <george.babarus@gmail.com>"
+]
+readme = 'README.md'
+repository = "https://github.com/a42ss/axel.git"
+homepage = "https://github.com/a42ss/axel.git"
+keywords = ['cli', 'documentation', 'automation', 'local', 'command', 'command-line', 'script', 'scripts', 'command-line-tool', 'automation-framework']
+
+[tool.poetry.dependencies]
+python =  ">=3.5, <3.10"
+
+cement = { version = "^3.0.6" }
+pinject = { version = "^0.14" }
+
+fire = { version = "^0.4" }
+cmd2 =  { version = "^2.4" }
+
+PyYAML = { version = "^6.0" }
+jsonschema = { version = "^4.5" }
+
+pyfiglet = { version = "^0.8" }
+prompt-toolkit = { version = "^3.0" }
+blessings = { version = "^1.7" }
+
+[tool.poetry.dev-dependencies]
+toml = "*"
+poetry = "*"
+poetry2setup = "*"
+
+pytest = "^5.2"
+pytest-cov = "*"
+mock = "*"
+semver = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+axel = 'axel.__main__:main'
+
+[tool.poetry.plugins]
