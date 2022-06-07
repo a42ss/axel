@@ -1,5 +1,5 @@
 def main():
-    from . import __version__
+    from axel import __version__
     print("This is sample aCLI app " + __version__)
 
 
