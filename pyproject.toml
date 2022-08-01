@@ -21,7 +21,7 @@ fire = { version = "^0.4" }
 cmd2 =  { version = "^2.4" }
 
 PyYAML = { version = "^6.0" }
-jsonschema = { version = "^4.8" }
+jsonschema = { version = "^4.9" }
 
 pyfiglet = { version = "^0.8" }
 prompt-toolkit = { version = "^3.0" }
