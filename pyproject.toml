@@ -14,7 +14,7 @@ keywords = ['cli', 'documentation', 'automation', 'local', 'command', 'command-l
 [tool.poetry.dependencies]
 python =  ">=3.7, <3.10"
 
-cement = { version = "^3.0.6" }
+cement = { version = "^3.0.8" }
 pinject = { version = "^0.14" }
 
 fire = { version = "^0.4" }
