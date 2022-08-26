@@ -12,7 +12,7 @@ homepage = "https://github.com/a42ss/axel.git"
 keywords = ['cli', 'documentation', 'automation', 'local', 'command', 'command-line', 'script', 'scripts', 'command-line-tool', 'automation-framework']
 
 [tool.poetry.dependencies]
-python =  ">=3.7, <3.10"
+python =  ">=3.7, <3.11"
 
 cement = { version = "^3.0.6" }
 pinject = { version = "^0.14" }
