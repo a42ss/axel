@@ -17,7 +17,7 @@ python =  ">=3.7, <3.11"
 cement = { version = "^3.0.6" }
 pinject = { version = "^0.14" }
 
-fire = { version = "^0.4" }
+fire = { version = "^0.5" }
 cmd2 =  { version = "^2.4" }
 
 PyYAML = { version = "^6.0" }
