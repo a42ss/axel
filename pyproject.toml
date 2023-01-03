@@ -34,7 +34,7 @@ poetry2setup = "*"
 
 pytest = "^7.1"
 pytest-cov = "^3.0"
-mock = "^4.0"
+mock = "^5.0"
 semver = "^2.13"
 
 [build-system]
