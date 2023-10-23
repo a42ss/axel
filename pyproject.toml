@@ -29,7 +29,7 @@ blessings = { version = "^1.7" }
 
 [tool.poetry.dev-dependencies]
 toml = "^0.10"
-poetry = "^1.1.15"
+poetry = "^1.5.1"
 poetry2setup = "*"
 
 pytest = "^7.3"
