@@ -840,13 +840,13 @@ poetry-core = ">=1.0.0,<2.0.0"
 
 [[package]]
 name = "prompt-toolkit"
-version = "3.0.38"
+version = "3.0.40"
 description = "Library for building powerful interactive command lines in Python"
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "prompt_toolkit-3.0.38-py3-none-any.whl", hash = "sha256:45ea77a2f7c60418850331366c81cf6b5b9cf4c7fd34616f733c5427e6abbb1f"},
-    {file = "prompt_toolkit-3.0.38.tar.gz", hash = "sha256:23ac5d50538a9a38c8bde05fecb47d0b403ecd0662857a86f886f798563d5b9b"},
+    {file = "prompt_toolkit-3.0.40-py3-none-any.whl", hash = "sha256:99ba3dfb23d5b5af89712f89e60a5f3d9b8b67a9482ca377c5771d0e9047a34b"},
+    {file = "prompt_toolkit-3.0.40.tar.gz", hash = "sha256:a371c06bb1d66cd499fecd708e50c0b6ae00acba9822ba33c586e2f16d1b739e"},
 ]
 
 [package.dependencies]
@@ -1116,7 +1116,6 @@ jeepney = ">=0.6"
 name = "semver"
 version = "3.0.0"
 description = "Python helper for Semantic Versioning (https://semver.org)"
-category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -1277,4 +1276,4 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.7, <3.11"
-content-hash = "df567a33e84e0cec9fb59c0848e3fdebb9bfb2286b009eb3e02784c849baa014"
+content-hash = "a17602349911eb293ffc4182914588be7f543c948aeffd49f1a5df30101f7ac9"
